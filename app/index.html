@@ -11,10 +11,14 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header wow animate__fadeInDown">
       <div class="container">
         <div class="header__inner">
           <div class="header__logo-box">
@@ -42,7 +46,7 @@
     <main class="main">
       <section class="top">
         <div class="container">
-          <div class="top__inner">
+          <div class="top__inner wow animate__fadeInUp">
             <div class="top__img-box">
               <img src="images/illustration-intro.png" alt="" />
             </div>
@@ -58,6 +62,7 @@
           </div>
         </div>
       </section>
+
       <section class="info">
         <div class="container">
           <ul class="info__list">
@@ -111,9 +116,10 @@
           </ul>
         </div>
       </section>
+
       <section class="works">
         <div class="container">
-          <div class="works__inner">
+          <div class="works__inner wow animate__fadeInLeft">
             <div class="works__img-box">
               <img
                 src="images/illustration-stay-productive.png"
@@ -139,9 +145,10 @@
           </div>
         </div>
       </section>
+
       <section class="feed">
         <div class="container">
-          <div class="feed__inner">
+          <div class="feed__inner wow animate__fadeInRight">
             <ul class="feed__list">
               <li class="feed__item">
                 <p class="feed__text">
@@ -194,21 +201,25 @@
             </ul>
           </div>
         </div>
-        <form class="form">
-          <div class="form__inner">
-            <h3 class="form__title">Get early access today</h3>
-            <p class="form__text">
-              It only takes a minute to sign up and our free starter tier is
-              extremely generous. If you have any questions, our support team
-              would be happy to help you.
-            </p>
-            <div class="form__box">
-              <input
-                placeholder="example@fylo.com"
-                class="form__input"
-                type="text"
-              />
-              <button class="form__button button">Get Started For Free</button>
+        <form class="form wow animate__fadeInUp">
+          <div class="form__big-box">
+            <div class="form__inner">
+              <h3 class="form__title">Get early access today</h3>
+              <p class="form__text">
+                It only takes a minute to sign up and our free starter tier is
+                extremely generous. If you have any questions, our support team
+                would be happy to help you.
+              </p>
+              <div class="form__box">
+                <input
+                  placeholder="example@fylo.com"
+                  class="form__input"
+                  type="text"
+                />
+                <button class="form__button button">
+                  Get Started For Free
+                </button>
+              </div>
             </div>
           </div>
         </form>
@@ -216,7 +227,7 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <div class="footer__inner">
+        <div class="footer__inner wow animate__fadeInUp">
           <div class="footer__info">
             <div class="footer__logo-box">
               <a href="#" class="footer__logo-link">
@@ -288,6 +299,12 @@
       </div>
     </footer>
 
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="js/main.min.js"></script>
   </body>
 </html>
